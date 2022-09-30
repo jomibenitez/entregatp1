@@ -1,0 +1,193 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: rgba(31, 31, 248, 0.954);
+    padding: 13px;
+}
+header h1{
+    color: white;
+    font-style: italic;
+    font-weight:300;
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+    margin: 3px;
+}
+header img{
+    border: 1px solid green;
+    border-radius: 40%;
+    box-shadow: 0px 0px 10px rgba(66, 250, 122, 0.6);
+}
+nav{
+    background-color:lightgreen;
+    margin-top: 0;
+}
+nav ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    flex-grow: 1;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: lightblue;
+}
+nav ul li a.activo{
+    background: lightblue;
+}
+footer{
+    background-color:rgba(31, 31, 248, 0.954);
+    text-align:center;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+h2{
+    font-weight: 400;
+    color: lightgreen;
+    font-style: bold;
+    font-size: 40px; 
+}
+h3{
+    font-weight: 200;
+    color: lightgreen;
+    font-style: bold;
+    font-size: 35px; 
+}
+h4{
+    font-weight: 200;
+    color: lightgreen;
+    font-style: italic bold;
+    font-size: 30px; 
+}
+p{
+    color: rgba(31, 31, 248, 0.954);
+    font-size: 16px;
+    font-weight: 150;
+    font-style: italic;
+}
+.pie{
+    color:white;
+    font-weight: 150;
+    font-style: bold;
+}
+.historia{
+    width: 75%;
+    padding-right: 16px;
+    border-left: 1px dashed lightgreen;
+    padding-left: 16px;
+}
+.mapa {
+    color: rgba(31, 31, 248, 0.954);
+    width: 75%;
+    border-left: 1px dashed lightgreen;
+    padding-left: 16px;
+    
+}
+.columnas{
+    display: flex;
+}
+.planteles{
+    border: 1px solid rgba(31, 31, 248, 0.954);
+    border-radius: 10px;
+    margin: 16px 0;
+    padding: 16px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.planteles img{
+    max-width: 225px;
+    display: block;
+    border-radius: 15px;
+}
+.primera{
+    margin-left: 30px;
+}
+.fotos{
+    margin: 16px 0;
+    padding: 16px;
+    gap: 30px;    
+}
+.fotos img{
+    border: 1px solid rgba(31, 31, 248, 0.954);
+    border-radius: 10px;
+    width: 225px;
+    height: 225px;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: all 0.5s ease;   
+}
+.fotos img:hover{
+    transform: scale(1.5);
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgba(31, 31, 248, 0.954);
+    margin-top: 16px;
+    color:green;
+  }
+table th, td{
+    border: 1px solid rgba(31, 31, 248, 0.954);
+}
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th, td {
+    padding: 20px;
+    text-align: center;
+  }
+  .formulario p label {
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+}
+.formulario p input{
+    width: 50%;
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 6px;
+}
+.formulario p:nth-child(4){/*seudo clase, hijo de otra clase*/
+    align-items: start;
+}
+.formulario input[type="submit"]{
+    box-shadow: 0 0 10px gray;
+    background-color: #6da9ed;
+    color: white;
+    font-size: 16px;
+    width: auto;
+    margin-left: 80px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
